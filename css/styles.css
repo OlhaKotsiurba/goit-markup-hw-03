@@ -157,6 +157,10 @@ img {
 .main-information {
   background-color: var(--brand-color);
   padding: 188px 0;
+  background-color: #2e2f42;
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+    url(../images/svg/people-office.jpg);
+  background-size: cover;
 }
 
 .main-title {
@@ -164,7 +168,6 @@ img {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
-  background-color: var(--brand-color);
   max-width: 496px;
 
   /* or 107% */
@@ -217,7 +220,7 @@ img {
   padding: 16px 32px;
   gap: 10px;
 
-    left: 636px;
+  left: 636px;
   right: 635px;
   top: 428px;
   bottom: 188px;
@@ -260,6 +263,21 @@ img {
   width: calc((100% - 72px) / 4);
 }
 
+.title-essence-principles-icons {
+  display: flex;
+  margin-bottom: 8px;
+}
+
+.title-essence-principles-view {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 264px;
+  height: 112px;
+  margin-bottom: 8px;
+  background-color: #f4f4fd;
+}
+
 .summary {
   display: flex;
   gap: 24px;
@@ -289,7 +307,7 @@ img {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  
+
   /* or 150% */
   letter-spacing: 0.02em;
 
@@ -304,7 +322,6 @@ img {
 
 /* Третя секція */
 .our-work {
-  
   padding-bottom: 120px;
 }
 
@@ -387,6 +404,47 @@ img {
   flex: none;
   order: 1;
   flex-grow: 0;
+  margin-bottom: 8px;
+}
+
+.social-list {
+  display: flex;
+  justify-content: center;
+  column-gap: 24px;
+}
+
+.social-list-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+}
+
+/* П'ята секція. Клієнти */
+
+.our-customers {
+  margin-top: 120px;
+}
+
+.icons-customers {
+  display: flex;
+  justify-content: center;
+  column-gap: 24px;
+  padding-bottom: 120px;
+}
+
+.icons-customers-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 168px;
+  height: 88px;
+  border: 1px solid #8e8f99;
+  border-radius: 4%;
+  background-color: #ffffff;
 }
 
 /* Підвал сторінки */
@@ -468,7 +526,7 @@ img {
 .app-name {
   border: 1px solid #e7e9fc;
   border-top: none;
-    padding: 32px 16px;
+  padding: 32px 16px;
 }
 
 .icons-description {
