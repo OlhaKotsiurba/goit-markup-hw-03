@@ -70,6 +70,7 @@ img {
 
 .page-header {
   border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08); 
 }
 
 .common-container {
@@ -161,6 +162,9 @@ img {
   background-color: #2e2f42;
   background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
     url(../images/svg/people-office.jpg);
+    max-width: 1440px;
+  background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
 }
 
@@ -266,18 +270,25 @@ img {
 
 .title-essence-principles-icons {
   display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 264px;
+  height: 112px; 
   margin-bottom: 8px;
+  background-color: #f4f4fd; 
+  border-radius: 4px; 
 }
 
-.title-essence-principles-view {
+
+ /* .title-essence-principles-view { 
   display: flex;
   justify-content: center;
   align-items: center;
   width: 264px;
-  height: 112px;
-  margin-bottom: 8px;
+    margin-bottom: 8px;
   background-color: #f4f4fd;
 }
+*/
 
 .summary {
   display: flex;
