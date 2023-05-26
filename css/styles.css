@@ -479,6 +479,10 @@ img {
   color: #404bbf;
 }
 
+.icons-customers-view {
+  fill: currentColor;
+}
+
 /* Підвал сторінки */
 
 .footer-container {
@@ -559,11 +563,23 @@ img {
   height: 40px;
 }
 
-.social-media-list-link {
+.social-list-link {
   width: 100%;
   height: 100%;
   background-color: #4d5ae5;
   border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-list-link:hover,
+.social-list-link:focus {
+  background-color: #31d0aa;
+}
+
+.social-list-icon {
+  fill: #f4f4fd;
 }
 
 /* Портфоліо */
@@ -584,6 +600,12 @@ img {
   margin-bottom: 72px;
 }
 
+.modal-open-button-all:hover,
+.modal-open-button-all:focus {
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
 .icons {
   display: flex;
   flex-wrap: wrap;
@@ -594,6 +616,16 @@ img {
 .icons-item {
   width: calc((100% - 48px) / 3);
   list-style: none;
+}
+
+.review {
+  display: block;
+}
+
+.review:hover,
+.review:focus {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .app-name {
