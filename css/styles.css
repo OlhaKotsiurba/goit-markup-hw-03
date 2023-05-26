@@ -70,7 +70,8 @@ img {
 
 .page-header {
   border-bottom: 1px solid #e7e9fc;
-  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08); 
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .common-container {
@@ -162,7 +163,7 @@ img {
   background-color: #2e2f42;
   background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
     url(../images/svg/people-office.jpg);
-    max-width: 1440px;
+  max-width: 1440px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -273,14 +274,13 @@ img {
   align-items: center;
   justify-content: center;
   width: 264px;
-  height: 112px; 
+  height: 112px;
   margin-bottom: 8px;
-  background-color: #f4f4fd; 
-  border-radius: 4px; 
+  background-color: #f4f4fd;
+  border-radius: 4px;
 }
 
-
- /* .title-essence-principles-view { 
+/* .title-essence-principles-view { 
   display: flex;
   justify-content: center;
   align-items: center;
@@ -354,7 +354,7 @@ img {
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11;
+  line-height: 1.1;
   margin-bottom: 72px;
 
   /* identical to box height, or 111% */
@@ -374,11 +374,13 @@ img {
 .our-team-identification {
   background-color: #ffffff;
   width: calc((100% - 72px) / 4);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
 }
 
 .person-information {
-  padding: 32px 16px;
+  padding: 32px 0;
 }
 
 .name {
@@ -424,7 +426,7 @@ img {
 .social-list {
   display: flex;
   justify-content: center;
-  column-gap: 24px;
+  gap: 24px;
 }
 
 .social-list-link {
@@ -437,16 +439,25 @@ img {
   background-color: #4d5ae5;
 }
 
+.social-list-link:hover,
+.social-list-link:focus {
+  background-color: #404bbf;
+}
+
+.social-list-icon {
+  fill: #f4f4fd;
+}
+
 /* П'ята секція. Клієнти */
 
 .our-customers {
-  margin-top: 120px;
+  padding: 120px 0;
 }
 
 .icons-customers {
   display: flex;
   justify-content: center;
-  column-gap: 24px;
+  gap: 24px;
   padding-bottom: 120px;
 }
 
@@ -457,8 +468,15 @@ img {
   width: 168px;
   height: 88px;
   border: 1px solid #8e8f99;
-  border-radius: 4%;
+  border-radius: 4px;
   background-color: #ffffff;
+  color: #8e8f99;
+}
+
+.icons-customers-link:hover,
+.icons-customers-link:focus {
+  border-color: #404bbf;
+  color: #404bbf;
 }
 
 /* Підвал сторінки */
