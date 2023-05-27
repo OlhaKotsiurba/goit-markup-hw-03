@@ -490,7 +490,7 @@ img {
 
 /* Підвал сторінки */
 
-.footer-container {
+.footer {
   display: flex;
   align-items: baseline;
 }
@@ -502,8 +502,7 @@ img {
 
 .footer-logo-container {
   margin-right: 120px;
-  width: 1158px;
-  padding: 0 15px;
+  padding-left: 156px;
 }
 
 .footer-logo {
