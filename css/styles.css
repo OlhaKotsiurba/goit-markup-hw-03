@@ -494,6 +494,7 @@ img {
   display: flex;
   align-items: baseline;
 }
+
 .under-logo-and-slogan {
   background-color: var(--brand-color);
   padding: 100px 0;
@@ -567,7 +568,6 @@ img {
   width: 40px;
   height: 40px;
 }
-
 
 .social-list-link:hover,
 .social-list-link:focus {
