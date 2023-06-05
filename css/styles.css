@@ -163,10 +163,12 @@ img {
   background-color: #2e2f42;
   background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
     url(../images/people-office.jpg);
-  max-width: 100%;
+
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .main-title {
@@ -454,7 +456,6 @@ img {
   display: flex;
   justify-content: center;
   gap: 24px;
-  padding-bottom: 120px;
 }
 
 .icons-customers-link {
